@@ -1,0 +1,89 @@
+/*
+ * Colour tokens. Mirrors src/design/palette.ts; tokens.test.ts fails if a
+ * value here drifts from the palette, so change both together.
+ *
+ * Theme resolution: the system setting by default, overridden by
+ * data-theme="light" | "dark" on <html> when the visitor picks one.
+ */
+:root {
+  color-scheme: light;
+  --base: #FAF8F5;
+  --surface: #FFFFFF;
+  --raised: #F1EEE8;
+  --separator: #E2DDD4;
+  --text: #16151A;
+  --text-secondary: #4A4752;
+  --text-tertiary: #6B6773;
+  --accent: #B83E12;
+  --on-accent: #FFFFFF;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    color-scheme: dark;
+    --base: #0F0E12;
+    --surface: #17161B;
+    --raised: #201E25;
+    --separator: #2C2A31;
+    --text: #F4F1EC;
+    --text-secondary: #B9B4BF;
+    --text-tertiary: #8E8996;
+    --accent: #FF7A45;
+    --on-accent: #0F0E12;
+  }
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --base: #0F0E12;
+  --surface: #17161B;
+  --raised: #201E25;
+  --separator: #2C2A31;
+  --text: #F4F1EC;
+  --text-secondary: #B9B4BF;
+  --text-tertiary: #8E8996;
+  --accent: #FF7A45;
+  --on-accent: #0F0E12;
+}
+
+@media (prefers-contrast: more) {
+  :root {
+    --base: #FFFFFF;
+    --surface: #FFFFFF;
+    --raised: #F4F2EE;
+    --separator: #8A8590;
+    --text: #000000;
+    --text-secondary: #2A2830;
+    --text-tertiary: #45424C;
+    --accent: #8F2E0B;
+    --on-accent: #FFFFFF;
+  }
+}
+
+@media (prefers-contrast: more) and (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    --base: #000000;
+    --surface: #0B0A0D;
+    --raised: #16151A;
+    --separator: #77727E;
+    --text: #FFFFFF;
+    --text-secondary: #DAD6DF;
+    --text-tertiary: #B8B3BF;
+    --accent: #FF9A70;
+    --on-accent: #000000;
+  }
+}
+
+@media (prefers-contrast: more) {
+  :root[data-theme='dark'] {
+    --base: #000000;
+    --surface: #0B0A0D;
+    --raised: #16151A;
+    --separator: #77727E;
+    --text: #FFFFFF;
+    --text-secondary: #DAD6DF;
+    --text-tertiary: #B8B3BF;
+    --accent: #FF9A70;
+    --on-accent: #000000;
+  }
+}
