@@ -20,7 +20,7 @@ export const caseWins: Award[] = [
 export const education = {
   school: 'University of Arizona, Eller College of Management',
   degree: 'Bachelor of Science in Business Administration',
-  graduated: 'April 2026',
+  graduated: 'May 2026',
   gpa: '3.5',
   image: {
     name: 'eller',

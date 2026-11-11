@@ -20,5 +20,5 @@ export const journey: string[] = [
 
 export const whatsNext: string[] = [
   'In summer 2025 I joined Twitch in San Francisco as a Product Marketing Intern on the Partnerships team. I onboarded more than 60 creators, orchestrated launches for creators with over a million followers, and supported live activations that reached up to 70,000 concurrent viewers.',
-  'I graduated from the Eller College of Management in April 2026 and I’m now based in the San Francisco Bay Area, building product marketing concepts and looking for my next role in tech and entertainment.',
+  'I graduated from the Eller College of Management in May 2026 and I’m now based in the San Francisco Bay Area, building product marketing concepts and looking for my next role in tech and entertainment.',
 ];
