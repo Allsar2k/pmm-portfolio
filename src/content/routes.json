@@ -39,7 +39,7 @@
       "path": "/concepts",
       "nav": "Concepts",
       "title": "Concepts · Chris Williams",
-      "description": "Product marketing concepts for Apple, Nike and Spotify: personas, positioning, go-to-market, segmentation and growth experiments."
+      "description": "Product marketing concepts for Apple, Nike, Spotify and Apple Music: a launch, a campaign, a retention plan and a growth strategy."
     },
     {
       "path": "/awards",
@@ -55,18 +55,23 @@
     },
     {
       "path": "/concepts/apple",
-      "title": "Apple Launch Concept · Chris Williams",
-      "description": "An Apple launch concept: target personas, positioning statement, messaging pillars and a go-to-market plan."
+      "title": "Apple Vision Air Launch Concept · Chris Williams",
+      "description": "Apple Vision Air: a launch concept for a lighter spatial computer for students and creators. Personas, positioning, messaging pillars and go-to-market."
     },
     {
       "path": "/concepts/nike",
-      "title": "Nike Campaign Concept · Chris Williams",
-      "description": "A Nike campaign concept: audience segmentation, competitive analysis and a channel-by-channel rollout."
+      "title": "Nike “Show Up” Campaign Concept · Chris Williams",
+      "description": "Nike “Show Up”: a campaign concept for Gen Z run clubs. Audience segmentation, competitive analysis and a channel-by-channel rollout."
     },
     {
       "path": "/concepts/spotify",
-      "title": "Spotify Growth Concept · Chris Williams",
-      "description": "A Spotify growth concept: funnel analysis, A/B test hypotheses and success metrics tied to retention."
+      "title": "Spotify “Graduation Day” Growth Concept · Chris Williams",
+      "description": "Spotify “Graduation Day”: keeping Premium Student subscribers after graduation. Funnel analysis, A/B test hypotheses and retention metrics."
+    },
+    {
+      "path": "/concepts/apple-music",
+      "title": "Apple Music “Second Listen” Growth Strategy · Chris Williams",
+      "description": "Apple Music “Second Listen”: a growth strategy to win share from Spotify. Market analysis, target segments, growth levers, roadmap and KPIs."
     },
     {
       "path": "/resume",

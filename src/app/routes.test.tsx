@@ -35,13 +35,20 @@ it('shows the not-found page for unknown paths', async () => {
   expect(await screen.findByRole('heading', { level: 1, name: /isn’t here/ })).toBeInTheDocument();
 });
 
-it('never links a planned concept to a repository that does not exist yet', async () => {
-  for (const c of concepts.filter((x) => x.status === 'planned')) {
+it('links each concept to its repository only once it is published', async () => {
+  for (const c of concepts) {
     const { unmount } = renderAt(`/concepts/${c.slug}`);
     await screen.findByRole('heading', { level: 1 });
-    expect(document.querySelector(`a[href="${c.repo}"]`)).toBeNull();
+    const repoLink = document.querySelector(`a[href="${c.repo}"]`);
+    if (c.status === 'planned') expect(repoLink).toBeNull();
+    else expect(repoLink).not.toBeNull();
+    if (c.status === 'published' && c.site) expect(document.querySelector(`a[href="${c.site}"]`)).not.toBeNull();
     unmount();
   }
+});
+
+it('has a pre-rendered route for every concept', () => {
+  for (const c of concepts) expect(routes.map((r) => r.path)).toContain(`/concepts/${c.slug}`);
 });
 
 it('opens and closes the mobile menu with its button and Escape', async () => {
