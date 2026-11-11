@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://allsar2k.github.io/pmm-portfolio/sitemap.xml
