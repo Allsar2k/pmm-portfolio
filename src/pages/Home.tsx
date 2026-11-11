@@ -113,11 +113,11 @@ export function Home() {
             <SectionHeading
               id="concepts-title"
               eyebrow="Product marketing concepts"
-              title="Three brands, three go-to-market problems."
-              intro="Each concept is a full product marketing plan for a real brand, built in public in its own repository."
+              title="Four brands, four go-to-market problems."
+              intro="A launch, a campaign, a retention plan and a growth strategy, each built in public in its own repository with its own design system."
             />
           </Reveal>
-          <ul className="grid gap-5 md:grid-cols-3">
+          <ul className="grid gap-5 md:grid-cols-2 xl:grid-cols-4">
             {concepts.map((c, i) => (
               <li key={c.slug}>
                 <Reveal delay={i * 0.05} className="h-full">

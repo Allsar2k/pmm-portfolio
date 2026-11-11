@@ -9,11 +9,11 @@ export default function Concepts() {
     <>
       <PageHeader
         eyebrow="Product marketing concepts"
-        title="Three brands. Three go-to-market problems."
-        intro="Each concept is a complete product marketing plan for a real brand: who it is for, what it says, and how it reaches them. Each one lives in its own repository so the thinking is open to read."
+        title="Four brands. Four go-to-market problems."
+        intro="A launch, a campaign, a retention plan and a growth strategy for real brands: who each is for, what it says, and how it reaches them. Each lives in its own repository, with its own design system and a one-page site."
       />
       <Container className="py-16">
-        <ul className="grid gap-5 md:grid-cols-3">
+        <ul className="grid gap-5 md:grid-cols-2">
           {concepts.map((c, i) => (
             <li key={c.slug}>
               <Reveal delay={i * 0.05} className="h-full">

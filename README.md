@@ -8,7 +8,7 @@
 
 ## Project Description 🎨
 
-The personal portfolio of Chris Williams, a product marketer focused on tech and entertainment. It tells his story, shows his work at Twitch, Zenith (Publicis Media), Augment.us and DoorDash, collects his case-competition projects with downloadable decks, and links to three product marketing concepts (Apple, Nike and Spotify), each in its own repository. The site is a static TypeScript and React app built with Vite and hosted on GitHub Pages, with no server, no tracking and no third-party scripts.
+The personal portfolio of Chris Williams, a product marketer focused on tech and entertainment. It tells his story, shows his work at Twitch, Zenith (Publicis Media), Augment.us and DoorDash, collects his case-competition projects with downloadable decks, and links to four product marketing concepts (Apple, Nike, Spotify and Apple Music), each in its own repository. The site is a static TypeScript and React app built with Vite and hosted on GitHub Pages, with no server, no tracking and no third-party scripts.
 
 ## Screenshots:
 
@@ -49,7 +49,7 @@ The personal portfolio of Chris Williams, a product marketer focused on tech and
 ## Features 🌟
 
 - 🎯 **Hero & proof strip** — the claim and the numbers on the first screen
-- 🧩 **Concepts hub** — Apple, Nike and Spotify go-to-market concepts
+- 🧩 **Concepts hub** — Apple, Nike, Spotify and Apple Music concepts, each with its own repository and site
 - 📂 **Case work library** — six projects with downloadable decks
 - 🧭 **My Story & Persona** — background, core values and working style
 - 🏆 **Awards & experience** — timeline and recognitions
