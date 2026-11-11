@@ -11,7 +11,7 @@ export function ConceptCard({ concept, headingLevel = 3 }: { concept: Concept; h
   const H = `h${headingLevel}` as const;
   return (
     <article className="group relative flex h-full flex-col rounded-card border border-separator bg-surface p-6 transition hover:border-ink-3 sm:p-7">
-      <div className="mb-6 flex items-center justify-between gap-3">
+      <div className="mb-6 flex flex-wrap items-center justify-between gap-3">
         <p className="eyebrow">{concept.kind}</p>
         <StatusBadge status={concept.status} />
       </div>

@@ -20,8 +20,14 @@ export function Header() {
   const buttonRef = useRef<HTMLButtonElement>(null);
   const { pathname } = useLocation();
 
-  // Close the menu after navigating, and on Escape (returning focus to the button).
-  useEffect(() => setOpen(false), [pathname]);
+  // Close the menu after navigating: reset during render when the path changes.
+  const [menuPath, setMenuPath] = useState(pathname);
+  if (menuPath !== pathname) {
+    setMenuPath(pathname);
+    setOpen(false);
+  }
+
+  // Close on Escape, returning focus to the button.
   useEffect(() => {
     if (!open) return;
     const onKey = (e: KeyboardEvent) => {

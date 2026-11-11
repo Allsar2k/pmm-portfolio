@@ -15,6 +15,7 @@ export default function Projects() {
         intro="Case competitions, client proposals and brand plans. Every deck is here to download."
       />
       <Container className="py-16">
+        <h2 className="sr-only">Case projects</h2>
         <ul className="grid gap-6 md:grid-cols-2">
           {projects.map((p) => (
             <li key={p.slug}>

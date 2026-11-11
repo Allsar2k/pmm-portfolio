@@ -15,7 +15,7 @@ const WIDTHS = [640, 1280];
 // Images that are crops of a larger original.
 const CROPS = {
   // Square-ish head-and-shoulders crop of the event photo.
-  portrait: { left: 0, top: 92, width: 1111, height: 1111 },
+  portrait: { left: 0, top: 140, width: 1030, height: 1030 },
 };
 
 await mkdir(OUT, { recursive: true });

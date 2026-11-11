@@ -3,10 +3,10 @@ import { applyTheme, currentTheme, type Theme } from '../app/theme';
 import { Icon } from './Icon';
 
 export function ThemeToggle() {
-  const [theme, setTheme] = useState<Theme>('light');
+  // The app renders only in the browser, so the current theme is known up front.
+  const [theme, setTheme] = useState<Theme>(currentTheme);
 
   useEffect(() => {
-    setTheme(currentTheme());
     const media = window.matchMedia('(prefers-color-scheme: dark)');
     const onChange = () => setTheme(currentTheme());
     media.addEventListener('change', onChange);

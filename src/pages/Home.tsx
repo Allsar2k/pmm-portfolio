@@ -83,7 +83,7 @@ export function Home() {
 
       {/* Snapshot */}
       <section aria-labelledby="about-title">
-        <Container className="grid gap-10 py-20 lg:grid-cols-[1fr_1.4fr]">
+        <Container className="grid gap-2 py-20 lg:grid-cols-[1fr_1.4fr] lg:gap-10">
           <Reveal>
             <SectionHeading id="about-title" eyebrow="Snapshot" title="About me" />
           </Reveal>
