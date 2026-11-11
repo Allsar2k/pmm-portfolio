@@ -22,10 +22,10 @@ The personal portfolio of Chris Williams, a product marketer focused on tech and
 
 ### Frameworks
 - [x] **React 19** — component UI and routing shell
-- [x] **TypeScript 5** — strict types for every piece of content
+- [x] **TypeScript 6** — strict types for every piece of content
 - [x] **Vite 8** — dev server and static build
 - [x] **Tailwind CSS 4** — styling driven by tested design tokens
-- [x] **React Router 7** — one route per page
+- [x] **React Router 8** — one route per page
 - [x] **Motion** — transitions that respect reduced motion
 
 ### APIs & Web Services
