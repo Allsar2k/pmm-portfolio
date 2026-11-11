@@ -1,0 +1,67 @@
+# Operating System
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*~
+
+# IDE & Editors
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+
+# Dependencies
+node_modules/
+.pnpm-store/
+.yarn/cache
+.yarn/install-state.gz
+# Lockfiles (package-lock.json) are tracked on purpose.
+
+# Build Artifacts
+dist/
+dist-ssr/
+build/
+*.tsbuildinfo
+.vite/
+.eslintcache
+.stylelintcache
+
+# Security & Secrets
+.env
+.env.*
+!.env.example
+.netrc
+*.pem
+*.key
+*.p12
+service-account*.json
+credentials*.json
+
+# Logs & Local Data
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.sqlite
+*.db
+
+# Testing & Coverage
+coverage/
+.nyc_output/
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Deployment
+.vercel
+.netlify

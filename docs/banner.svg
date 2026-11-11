@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="500" viewBox="0 0 1000 500" role="img" aria-labelledby="t d">
+  <title id="t">Product Marketing Concepts Portfolio</title>
+  <desc id="d">Chris Williams's CW monogram beside the project title and the words positioning, messaging, go-to-market and research.</desc>
+  <defs>
+    <radialGradient id="glow" cx="0.85" cy="0.1" r="0.7">
+      <stop offset="0" stop-color="#FF7A45" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#FF7A45" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#2C2A31" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1000" height="500" fill="#0F0E12"/>
+  <rect width="1000" height="500" fill="url(#grid)" opacity="0.55"/>
+  <rect width="1000" height="500" fill="url(#glow)"/>
+
+  <!-- Monogram -->
+  <g transform="translate(80 150)">
+    <rect width="200" height="200" rx="44" fill="#FF7A45"/>
+    <text x="100" y="132" text-anchor="middle" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="104" font-weight="700" fill="#0F0E12" letter-spacing="-4">CW</text>
+    <path d="M138 52 L162 28 M162 28 H146 M162 28 V44" stroke="#0F0E12" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+
+  <!-- Title -->
+  <text x="330" y="205" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="20" font-weight="600" letter-spacing="4" fill="#FF7A45">CHRIS WILLIAMS</text>
+  <text x="328" y="262" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="50" font-weight="600" fill="#F4F1EC">Product Marketing</text>
+  <text x="328" y="318" font-family="Fraunces, Georgia, 'Times New Roman', serif" font-size="50" font-weight="600" fill="#F4F1EC">Concepts Portfolio</text>
+  <text x="330" y="362" font-family="Inter, 'Helvetica Neue', Arial, sans-serif" font-size="19" fill="#B9B4BF">Positioning · Messaging · Go-to-Market · Market Research</text>
+
+  <!-- Launch line -->
+  <path d="M330 400 C 520 400, 640 392, 760 360 S 880 300, 920 250" fill="none" stroke="#FF7A45" stroke-width="3" stroke-linecap="round" stroke-dasharray="2 10"/>
+  <circle cx="920" cy="250" r="7" fill="#FF7A45"/>
+</svg>
