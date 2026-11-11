@@ -1,0 +1,77 @@
+{
+  "site": {
+    "name": "Chris Williams",
+    "url": "https://allsar2k.github.io/pmm-portfolio/",
+    "description": "Chris Williams is a product marketer focused on tech and entertainment. Positioning, messaging, go-to-market and research, with work from Twitch, Zenith, Augment.us and DoorDash."
+  },
+  "routes": [
+    {
+      "path": "/",
+      "nav": "Home",
+      "title": "Chris Williams · Product Marketing",
+      "description": "Chris Williams is a product marketer focused on tech and entertainment. Positioning, messaging, go-to-market and research, with work from Twitch, Zenith, Augment.us and DoorDash."
+    },
+    {
+      "path": "/my-story",
+      "nav": "My Story",
+      "title": "My Story · Chris Williams",
+      "description": "From Dallas and Toronto to Twitch: how sports, music and a high-school record label led Chris Williams to product marketing."
+    },
+    {
+      "path": "/experience",
+      "nav": "Experience",
+      "title": "Experience · Chris Williams",
+      "description": "Product marketing and growth experience at Twitch, Zenith (Publicis Media), Augment.us and DoorDash."
+    },
+    {
+      "path": "/persona",
+      "nav": "Persona",
+      "title": "Persona · Chris Williams",
+      "description": "Core values, working style and PeopleStyles profile: how Chris Williams works with a team."
+    },
+    {
+      "path": "/projects",
+      "nav": "Projects",
+      "title": "Projects · Chris Williams",
+      "description": "Case competitions and marketing projects for Netflix, HOKA, E. & J. Gallo and more, with downloadable decks."
+    },
+    {
+      "path": "/concepts",
+      "nav": "Concepts",
+      "title": "Concepts · Chris Williams",
+      "description": "Product marketing concepts for Apple, Nike and Spotify: personas, positioning, go-to-market, segmentation and growth experiments."
+    },
+    {
+      "path": "/awards",
+      "nav": "Awards",
+      "title": "Awards · Chris Williams",
+      "description": "Awards, case competition wins, education and leadership at the University of Arizona's Eller College of Management."
+    },
+    {
+      "path": "/contact",
+      "nav": "Contact",
+      "title": "Contact · Chris Williams",
+      "description": "Get in touch with Chris Williams about product marketing roles in tech and entertainment."
+    },
+    {
+      "path": "/concepts/apple",
+      "title": "Apple Launch Concept · Chris Williams",
+      "description": "An Apple launch concept: target personas, positioning statement, messaging pillars and a go-to-market plan."
+    },
+    {
+      "path": "/concepts/nike",
+      "title": "Nike Campaign Concept · Chris Williams",
+      "description": "A Nike campaign concept: audience segmentation, competitive analysis and a channel-by-channel rollout."
+    },
+    {
+      "path": "/concepts/spotify",
+      "title": "Spotify Growth Concept · Chris Williams",
+      "description": "A Spotify growth concept: funnel analysis, A/B test hypotheses and success metrics tied to retention."
+    },
+    {
+      "path": "/resume",
+      "title": "Awards · Chris Williams",
+      "description": "Awards, case competition wins, education and leadership at the University of Arizona's Eller College of Management."
+    }
+  ]
+}
