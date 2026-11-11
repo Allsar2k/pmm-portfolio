@@ -1,0 +1,114 @@
+{
+  "design-mocktails": {
+    "width": 1080,
+    "height": 1080,
+    "widths": [
+      640,
+      1080
+    ]
+  },
+  "design-patio": {
+    "width": 1080,
+    "height": 1080,
+    "widths": [
+      640,
+      1080
+    ]
+  },
+  "eller": {
+    "width": 800,
+    "height": 533,
+    "widths": [
+      640,
+      800
+    ]
+  },
+  "persona-peoplestyles": {
+    "width": 1406,
+    "height": 742,
+    "widths": [
+      640,
+      1280
+    ]
+  },
+  "persona-working-style": {
+    "width": 1410,
+    "height": 794,
+    "widths": [
+      640,
+      1280
+    ]
+  },
+  "portrait": {
+    "width": 1111,
+    "height": 1111,
+    "widths": [
+      640,
+      1111
+    ]
+  },
+  "project-bcom314": {
+    "width": 1724,
+    "height": 978,
+    "widths": [
+      640,
+      1280
+    ]
+  },
+  "project-dry-heat": {
+    "width": 1726,
+    "height": 972,
+    "widths": [
+      640,
+      1280
+    ]
+  },
+  "project-gallo": {
+    "width": 1580,
+    "height": 574,
+    "widths": [
+      640,
+      1280
+    ]
+  },
+  "project-hoka": {
+    "width": 1726,
+    "height": 970,
+    "widths": [
+      640,
+      1280
+    ]
+  },
+  "project-netflix": {
+    "width": 1998,
+    "height": 1126,
+    "widths": [
+      640,
+      1280
+    ]
+  },
+  "project-wnpa": {
+    "width": 1730,
+    "height": 976,
+    "widths": [
+      640,
+      1280
+    ]
+  },
+  "story-1": {
+    "width": 978,
+    "height": 1118,
+    "widths": [
+      640,
+      978
+    ]
+  },
+  "story-2": {
+    "width": 1324,
+    "height": 1228,
+    "widths": [
+      640,
+      1280
+    ]
+  }
+}
